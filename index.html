@@ -1,78 +1,238 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
   <title>Bootstrap Example</title>
+
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
+
 <body>
+
  <div class="jumbotron">
+
   <h1>Lenine</h1>      
+
     <p></p>
+
   </div>
+
 <div class="container">
+
    <div class="row">
+
        <div class="col-sm-4">
+
          <img src="lenine1.jpg" class="img-circle" style="max-width: 260px;"/>
+         <p class="text-center">Simplicidade!</p>
+
        </div>
+
        <div class="col-sm-4">
+
 		    <img src="lenine2.jpg" class="img-circle" style="max-width: 260px;"/>
+            <p class="text-center">A vida continua surpeendemente bela!</p>
+
        </div>
+
        <div class="col-sm-4">
+
        		<img src="lenine3.jpg" class="img-circle" style="max-width: 260px;"/>
+                          <p class="text-center">É simples assim!</p>
+
        </div>
+
    </div>
+
    <div class="row">
+
    		<div class="col-sm-12">
+
         <h1>Shows <small>Fique ligado no que está por vir!</small></h1>
 
+
+
        </div>
+
    </div>
+
    <div class="row">
+
    		<div class="col-sm-12">
+
      <table class="table table-striped">
+
     <thead>
+
       <tr>
+
         <th>Cidade</th>
+
         <th>Local</th>
+
         <th>Data</th>
+
       </tr>
+
     </thead>
+
     <tbody>
+
       <tr>
+
         <td>São Paulo</td>
+
         <td>SESC Pinheiros</td>
+
         <td>20/04/2016</td>
+
       </tr>
+
       <tr>
+
         <td>Rio de Janeiro</td>
+
         <td>Barra Music</td>
+
         <td>03/05/2016</td>
+
       </tr>
+
       <tr>
+
         <td>São Paulo</td>
+
         <td><abbr title="Citibank Hall">CBH</abbr></td>
-        <td>06/05/2016</td>
+
+        <td>06/05/2016 <span class="label label-default">Novo</span></td>
+        
       </tr>
+
     </tbody>
+
   </table>
+
 </div>
-   <div class="container">
-  <h1>Testemunhos <small> De quem foi e gostou!</small></h1>
-  
-     <blockquote>
-    <p>O melhor show da minha vida! Fiquei totalmente emocionada ao ouvir minha música favorita, que na verdade são todas! rsss Valeu muito a pena!!!!</p>
-    <footer>Maria Fernanda Barros</footer>
-  </blockquote>
-  
-  <blockquote>
-    <p>Lenine super atencioso, talentoso e carismático! Com certeza irei em mais shows dele!</p>
-    <footer>João Cavalcante</footer>
-  </blockquote>
+     
+     <div class="container">
+   <div class="row">
+<div class="col-sm-12">
+  <div class="panel-group">
+	  <div class="panel panel-default">
+		<div class="panel-heading">
+		  <h4 class="panel-title">
+			<a data-toggle="collapse" href="#collapse1">Fotos <small> Dos shows!</small></a>
+		  </h4>
+		</div>
+       
+        
+		<div id="collapse1" class="panel-collapse collapse">
+		  <div class="panel-body">
+          
+          <div class="col-sm-4">
+          <img src="show1.jpg" class="img-responsive" style="max-width: 200px;"/>
+          </div>
+          
+          <div class="col-sm-4">
+          <img src="show2.jpg" class="img-responsive" style="max-width: 200px;"/>
+          </div>
+          
+          <div class="col-sm-4">
+          <img src="show3.jpg" class="img-responsive" style="max-width: 200px;"/>
+          </div>
+          
+          </div>
+          
+		</div>
+        </div>
+		</div>
+	  </div>
+	</div>
+</div>
+</div>
 </div>
 
+   <div class="container">
+     <div class="row">
+
+  <h1>Testemunhos <small> De quem foi e gostou!</small></h1>
+
+  
+ <div class="col-md-6">
+     <blockquote>
+       
+    <p>O melhor show da minha vida! Fiquei totalmente emocionada ao ouvir minha música favorita, que na verdade são todas! rsss Valeu muito a pena!!!!</p>
+
+    <footer>Maria Fernanda Barros</footer>
+
+  </blockquote>
+</div>
+  
+<div class="col-md-6">
+  <blockquote>
+      
+    <p>Lenine super atencioso, talentoso e carismático! Com certeza irei em mais shows dele!</p>
+
+    <footer>João Cavalcante</footer>
+    
+  </blockquote>
+ </div>
+</div>
+</div>
+
+<div class="container">
+     <div class="row">
+ <h1>Entre em Contato <small>perguntas, críticas, sugestões</small></h1>
+ 
+ <div class="col-sm-4">
+ 
+ <small>Nome:</small> <div class="panel panel-default">
+    <div class="panel-body">
+    </div>
+  </div>
+  
+  <small>Email:</small> <div class="panel panel-default">
+    <div class="panel-body">
+    </div>
+  </div>
+    
+    
+     <div class="dropdown">
+  <small> Estado</small> <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Acre
+		<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="dropdown">Alagoas</a></li>
+    <li><a href="dropdown">Amapá</a></li>
+    <li><a href="dropdown">Amazonas</a></li>
+  </ul>
+  
+  <div class="btn-group"> 
+  <button type="button" class="btn btn-primary active">Feminino</button>
+<button type="button" class="btn btn-default active">Masculino</button></div>
+
+
+<div class="col-sm-36">
+
+<small>Mensagem:</small> <div class="panel panel-default">
+    <div class="panel-body">
+    </div>
+  </div>
+    
+    <button type="button" class="btn btn-success">Enviar</button>
+
 </body>
+
 </html>
+
