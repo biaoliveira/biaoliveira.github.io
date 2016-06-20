@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.jumbotron
+{ 
+background-color:black;
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: transparent;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+[role=button] {
+    cursor: pointer;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+user agent stylesheeta:-webkit-any-link {
+    color: transparent;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from body
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: transparent;
+    background-color: transparent;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+position0
+0margin‒
+‒border‒
+‒padding‒
+‒171 × 427‒
+‒‒
+‒‒
+‒‒
+0
+
+Filter
+
+Show all
+background-color
+rgba(0, 0, 0, 0)
+background-image
+linear-gradient(to right, rgba(0, 0, 0, 0.498039) 0px, rgba(0, 0, 0, 0) 100%)
+background-repeat
+repeat-x
+bottom
+0px
+box-sizing
+border-box
+color
+rgb(255, 255, 255)
